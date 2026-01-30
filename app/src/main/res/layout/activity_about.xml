@@ -150,7 +150,7 @@
                         android:id="@+id/tvUrl"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="https://github.com/azlan-sys/SafeCampus.git"
+                        android:text="https://github.com/azlan-ive/SafeCampus.git"
                         android:textColor="#0277BD"
                         android:textSize="14sp"
                         android:textStyle="bold" />

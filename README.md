@@ -39,7 +39,7 @@
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/azlan-sys/SafeCampus.git
+   git clone https://github.com/azlan-ive/SafeCampus.git
    ```
 2. **Firebase Setup**:
    - Create a project in the [Firebase Console](https://console.firebase.google.com/).
