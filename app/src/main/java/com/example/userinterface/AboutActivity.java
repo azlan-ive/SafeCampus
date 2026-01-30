@@ -7,18 +7,22 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 public class AboutActivity extends AppCompatActivity {
 
-    private static final String APP_URL = "https://example.com/safecampus";
+    private static final String APP_URL = "https://github.com/azlan-sys/SafeCampus.git";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
 
-        TextView tvUrl = findViewById(R.id.tvUrl);
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        toolbar.setNavigationOnClickListener(v -> finish());
 
+        TextView tvUrl = findViewById(R.id.tvUrl);
 
         // Set URL
         tvUrl.setText(APP_URL);

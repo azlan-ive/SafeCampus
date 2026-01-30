@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.userinterface">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -13,6 +14,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UserInterface">
+
+        <!-- Google Maps API Key -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB3uOIjcDK5sdV8x4otJB9-UK6xc5xLA9M" />
 
         <!-- LOGIN (LAUNCHER) -->
         <activity
@@ -37,6 +43,9 @@
 
         <!-- SIGN UP -->
         <activity android:name=".SignUpActivity" />
+
+        <!-- PROFILE -->
+        <activity android:name=".ProfileActivity" />
 
     </application>
 

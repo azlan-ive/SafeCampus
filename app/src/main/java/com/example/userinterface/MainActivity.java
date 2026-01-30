@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button btnReport = findViewById(R.id.btnReport);
         Button btnRecent = findViewById(R.id.btnRecent);
+        Button btnProfile = findViewById(R.id.btnProfile);
         Button btnAbout  = findViewById(R.id.btnAbout);
         Button btnLogout = findViewById(R.id.btnLogout);
 
@@ -24,6 +25,10 @@ public class MainActivity extends AppCompatActivity {
 
         btnRecent.setOnClickListener(v ->
                 startActivity(new Intent(this, RecentIncidentsActivity.class))
+        );
+
+        btnProfile.setOnClickListener(v ->
+                startActivity(new Intent(this, ProfileActivity.class))
         );
 
         btnAbout.setOnClickListener(v ->
