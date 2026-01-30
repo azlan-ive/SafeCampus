@@ -27,13 +27,6 @@
 
 ---
 
-## 📸 Screenshots
-
-| Login | Main Menu | Map View |
-|-------|-----------|----------|
-| ![Login Screen](https://via.placeholder.com/200x400?text=Login) | ![Main Menu](https://via.placeholder.com/200x400?text=Main+Menu) | ![Map View](https://via.placeholder.com/200x400?text=Map+View) |
-
----
 
 ## 💻 Installation & Setup
 
