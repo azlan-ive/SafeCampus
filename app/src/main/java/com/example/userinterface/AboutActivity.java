@@ -11,7 +11,7 @@ import androidx.appcompat.widget.Toolbar;
 
 public class AboutActivity extends AppCompatActivity {
 
-    private static final String APP_URL = "https://github.com/azlan-sys/SafeCampus.git";
+    private static final String APP_URL = "https://github.com/azlan-ive/SafeCampus.git";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

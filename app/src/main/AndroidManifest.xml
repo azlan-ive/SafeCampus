@@ -47,6 +47,9 @@
         <!-- PROFILE -->
         <activity android:name=".ProfileActivity" />
 
+        <!-- ADMIN MARKED LOCATIONS -->
+        <activity android:name=".AdminMarkedLocationsActivity" />
+
     </application>
 
 </manifest>
